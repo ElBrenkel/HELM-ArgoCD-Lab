@@ -2,18 +2,18 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
 # set your lab user name
-  name: gil-hiye-world
+  name: user22-hiye-world
 spec:
   replicas: 3
   selector:
     matchLabels:
 # set your lab user name
-      app: gil-hiye-world
+      app: user22-hiye-world
   template:
     metadata:
       labels:
 # set your lab user name
-        app: gil-hiye-world
+        app: user22-hiye-world
     spec:
       containers:
         - resources: {}

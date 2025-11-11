@@ -2,7 +2,7 @@ kind: Service
 apiVersion: v1
 metadata:
 # set your user name
-  name: gil-hiye-world
+  name: user22-hiye-world
 spec:
   ports:
     - protocol: TCP
@@ -10,4 +10,4 @@ spec:
       targetPort: 8080
   selector:
 # set your user name
-    app: gil-hiye-world
+    app: user22-hiye-world
