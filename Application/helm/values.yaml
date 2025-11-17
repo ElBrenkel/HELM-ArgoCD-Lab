@@ -2,8 +2,8 @@ ReplicaNumber: 3
 
 containers:
   containerPort: 8080
-  image: 'quay.io/ahalan/bechi:v2'
-  tag: 'base'
+  image: 'quay.io/ahalan/bechi'
+  tag: 'v2'
 
 service:
   servicePort: 8080
