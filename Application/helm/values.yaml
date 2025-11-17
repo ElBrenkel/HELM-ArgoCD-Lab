@@ -7,3 +7,5 @@ containers:
 
 service:
   servicePort: 8080
+  image: 'quay.io/ahalan/bechi'
+  tag: 'chart_v1'
